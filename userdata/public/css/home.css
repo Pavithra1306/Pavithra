@@ -1,0 +1,239 @@
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+header, footer {
+  
+} 
+.headertab1 { display:inline-block; 
+       margin-left: 10%; }
+	   
+.headertab2 { display:inline-block; 
+       margin-left: 5px; }
+	   
+.nav.nav-tabs {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.inputText{
+	color : black;
+	border-radius: 10px;
+} 
+input[placeholder] {
+   text-align: center;
+}
+.loginarea{
+	padding : 1em
+}
+.homepg{
+	background-color: #DCDCDC
+}
+
+.navbt{
+	float : right !important;
+	margin-right : 20px;
+}
+
+
+table { 
+	font-family: arial, sans-serif;
+    border-collapse: collapse; 
+	width: 70%;
+}
+table  thead  tr  th {
+    border-bottom: 2px solid black !important;
+}
+td , th{ border-bottom: 1px solid #000; }
+
+.sidenav {
+    width :150px;
+	z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.navsec {
+	float:left;
+}
+
+.tabsec {
+    margin-left: 150px;
+}
+
+.subcanbtn{
+	margin : 20px;
+}
+
+table td input[placeholder] {
+width : 100px;	
+}
+
+table td input td select td textarea{
+font-size:14px;
+}
+
+table td textarea[placeholder]{
+font-size:14px;	
+}
+
+
+ul.ulclass{
+margin-bottom : 20px;
+}
+
+ul.ulclass input{
+	width:100px;
+}
+
+ul.ulclass select{
+	width:100px;
+	height:26px;
+}
+
+#activitypop.modalWidth{
+	width:100px;
+}
+
+#activitypop th td{
+padding : 10px;	
+}
+
+.homepg h3{
+margin:auto;
+}
+
+.headerNavTabs{
+margin-top:10px;
+margin-bottom:10px !important;	
+}
+
+#activitypop.modal-footer{
+	border-top:none;
+}
+
+.wrap {
+    width: 100%;
+	height:100%;
+    position: absolute;
+}
+
+.header {
+    position:absolute;
+    height: 40px;
+    width:100%;
+    top: 0;
+    background-color: #089de3;
+    font-size: 20px;
+    color: white;
+}
+
+.footer {
+    position:absolute;
+    width:100%;
+    height: 40px;
+    bottom: 0;
+	background-color: #089de3;
+    font-size: 20px;
+    color: white;
+}
+
+.content {
+    height: 100%; /* What should this be?? */
+    position:relative;
+    top:0;
+    padding:40px 0;/* padding height of header/footer */
+    box-sizing:border-box;
+	background-color: #DCDCDC
+}
+
+
+form .input-group{
+	position: relative;
+    display: table;
+    border-collapse: separate;
+    width: 250px;
+    top: 0;
+    left: 0;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 28em;
+    height: 30em;
+    margin-top: -9em;
+    margin-left: -15em;
+    border: 1px solid gray;
+    background-color: #f3f3f3;
+}
+
+form .btn{
+	width: 100px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+	display:inline;
+}
+
+#sideNav{
+	position: fixed;
+    background-color: white;
+    height: 100%;
+    padding-bottom: 40px;
+	width:15%;
+	list-style: none;
+    padding: 10px;
+	padding-top:40px;
+	font-weight: bold;
+    font-style: italic;
+}
+
+
+#sideNav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#sideNav li{
+	padding-top:20px;
+	color: #337ab7;
+}
+
+#COListSubmenu li{
+	padding-top:10px;
+}
+
+#COListSubmenu{
+	display:none;
+	list-style: none;
+    padding-left: 20px;
+}
+#sideNav .glyphicon{
+	padding-left: 10px;
+    font-size: 10px;
+}
+
+.COTable{
+    margin-left: 16%;
+    margin-top: 20px;
+}
