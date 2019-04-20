@@ -1,0 +1,47 @@
+.wrapper{
+	display : grid;
+	grid-template-columns : 50% 50%;
+	
+	
+}
+
+.display{
+	background-color:#ddd;
+	height : 100vh;
+	border:1px solid black;
+}
+
+.create{
+	border:1px solid black;
+}
+
+#myForm{
+	display:flex;
+	flex-direction : column;
+	border:1px solid black;
+	width : 400px;
+	margin : 30px;
+}
+
+.inputStyle{
+	width : 350px;
+	height : 25px;
+	margin : 20px;
+}
+
+.btnStyle{
+	width : 200px;
+	margin:	20px;
+}
+
+.btn{
+	display:flex;
+	
+}
+
+.header{
+	width:100%;
+	background-color:coral;
+	height:20px;
+	text-align:center;
+}
