@@ -1,0 +1,26 @@
+const express=require('express');
+const router=express.Router();
+const User=require('../models/user')
+
+router.get('/',(req,res,next)=>{
+	res.status(200).json({
+		message : "get req to /products"
+	})
+});
+
+router.post('/',(req,res,next)=>{
+	const user=new /user({
+		firstName:req.body.firstName,
+		lastName:req.body.lastName,
+		contact:req.body.contact,
+		email:req.body.email
+	});
+	
+	user.save().then(res=>console.log(res)).catch(err=>console.log(err))
+	res.status(200).json({
+		message : "user details received",
+		user : user
+	})
+});
+
+module.exports = router;
